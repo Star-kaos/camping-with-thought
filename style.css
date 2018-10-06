@@ -1,16 +1,153 @@
-body{
-   margin: 0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F5F5F5;
 }
 
-h1{
-  margin-top: 50px;
-   margin: 0;
-   text-align:center;
+.maintopnav {
+  margin: 0;
+  height: 600px;
+  background-color: #273746;
+  position: static;
 }
 
-.header{
-  font-family: fantasy;
-  background-color: grey;
-  height: 400px;
+#cool {
+   position: absolute;
+   color: white;
+   font-weight: 700;
+   margin-top: 230px;
+   font-size: 180%;
+   margin-left: 50px;
+}
+
+#cool2 {
+  position: absolute;
+  color: white;
+  margin-top: 270px;
+  margin-left: 50px;
+}
+
+.main {
+  height: 900px;
+  width: 900px;
+  border-radius: 3px;
+  margin-left: 30px;
+  margin-top:400px;
+  position: absolute;
+  background-color: white;
+
+}
+
+.box1{
+ height: 300px;
+ border-bottom: 2px;
+ border-bottom-style: solid;
+ border-bottom-color: lightgrey;
+}
+
+#color{
+ color: #7C7C7C;
+ font-weight: 900;
+ position: absolute;
+ margin-bottom: 300px;
+ margin-left: 580px;
+
+}
+
+#color2{
+ color: #A0A0A0;
+ font-weight: 900;
+ position: absolute;
+ margin-bottom: 200px;
+ margin-top: 80px;
+ margin-left: 530px;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 100px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.button:hover{
+  background-color: darkgreen;
+
+}
+
+.button2 {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 1300px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.button2:hover{
+  background-color: darksalmon;
+
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#the{
+  position: absolute;
+   -webkit-filter: grayscale(80%);
+   filter: grayscale(80%);
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#style1 {
+  font-variant: small-caps;
+font-weight: 900;
+}
+
+.active {
+  color: white;
+}
+
+#yeah {
+  margin-top: 150px;
+  margin-left: 30px;
 
 }
